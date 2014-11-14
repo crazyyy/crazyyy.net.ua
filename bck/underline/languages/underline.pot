@@ -1,0 +1,345 @@
+# Copyright (C) 2014 WPMisc
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Underline 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tags/underline\n"
+"POT-Creation-Date: 2014-03-26 19:33:01+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2014-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:9
+msgid "404 Not Found"
+msgstr ""
+
+#: comments.php:25
+msgid "Comments"
+msgstr ""
+
+#: comments.php:43
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: comments.php:44
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: comments.php:49
+msgid "Comments are closed."
+msgstr ""
+
+#: comments.php:62
+msgid "Name"
+msgstr ""
+
+#: comments.php:63 contact.php:27
+msgid "Email"
+msgstr ""
+
+#: comments.php:64 functions.php:400
+msgid "Website"
+msgstr ""
+
+#: contact.php:32
+msgid "Subject"
+msgstr ""
+
+#: contact.php:37
+msgid "Message"
+msgstr ""
+
+#: contact.php:43
+msgid "I'm a human."
+msgstr ""
+
+#: contact.php:48
+msgid "Send message"
+msgstr ""
+
+#: contact.php:59 fullwidth-page.php:31 landing-page.php:31 page.php:20
+#: shared.php:22 single.php:36
+msgid "Jump to top"
+msgstr ""
+
+#: content-contact.php:19 content-fullwidth.php:13 content.php:28
+msgid "Read more"
+msgstr ""
+
+#: content-contact.php:24 content.php:36
+msgid "Tags"
+msgstr ""
+
+#: content-none.php:3
+msgid "No posts found."
+msgstr ""
+
+#: content-none.php:7
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: content-none.php:12
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: content.php:12
+msgid "Posted on"
+msgstr ""
+
+#: content.php:12
+msgid "by"
+msgstr ""
+
+#: content.php:12
+msgid "View all posts by %s"
+msgstr ""
+
+#: footer.php:12
+msgid "Copyright &copy; %s %s"
+msgstr ""
+
+#: footer.php:13
+msgid "Powered by %s and %s"
+msgstr ""
+
+#: functions.php:20
+msgid "Primary Menu"
+msgstr ""
+
+#: functions.php:52
+msgid "Main Widget Area"
+msgstr ""
+
+#: functions.php:54
+msgid "Appears in the left/right section of the site."
+msgstr ""
+
+#: functions.php:62
+msgid "Footer Widget Area"
+msgstr ""
+
+#: functions.php:64
+msgid "Appears in the bottom section of the site."
+msgstr ""
+
+#: functions.php:72
+msgid "Post Widget Area"
+msgstr ""
+
+#: functions.php:74
+msgid ""
+"Appears beneath every single post, righ after the post's author information "
+"box"
+msgstr ""
+
+#: functions.php:131
+msgid "First"
+msgstr ""
+
+#: functions.php:160
+msgid "Last"
+msgstr ""
+
+#: functions.php:188
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr ""
+
+#: functions.php:192
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:244
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr ""
+
+#: functions.php:245
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: functions.php:344
+msgid "Home"
+msgstr ""
+
+#: functions.php:378
+msgid "Author"
+msgstr ""
+
+#: functions.php:451
+msgid "Category"
+msgstr ""
+
+#: functions.php:461
+msgid "Tag Archives"
+msgstr ""
+
+#: functions.php:472
+msgid "Search Results for"
+msgstr ""
+
+#: functions.php:480
+msgid "Daily Archives"
+msgstr ""
+
+#: functions.php:482
+msgid "Monthly Archives"
+msgstr ""
+
+#: functions.php:484
+msgid "Yearly Archives"
+msgstr ""
+
+#: functions.php:486
+msgid "Archives"
+msgstr ""
+
+#: functions.php:516
+msgid "Pingback:"
+msgstr ""
+
+#: functions.php:516
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:547
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:550
+msgid "Edit"
+msgstr ""
+
+#: functions.php:556
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:564
+msgid "Reply"
+msgstr ""
+
+#: functions.php:659
+msgid "Please don't!"
+msgstr ""
+
+#: functions.php:662
+msgid "Something goes wrong!"
+msgstr ""
+
+#: functions.php:677
+msgid "You're not human?"
+msgstr ""
+
+#: functions.php:685
+msgid "Please fill out all required fields"
+msgstr ""
+
+#: functions.php:688
+msgid "The message must be longer than 10 letters"
+msgstr ""
+
+#: functions.php:691
+msgid "The email is invalid"
+msgstr ""
+
+#: functions.php:709
+msgid "Sorry, we can't receive mail now. Please try again later."
+msgstr ""
+
+#: functions.php:714
+msgid "The message is sent successfully."
+msgstr ""
+
+#: functions.php:716
+msgid "Something goes wrong! Please try again later."
+msgstr ""
+
+#: inc/widgets.php:13
+msgid "A list of random posts"
+msgstr ""
+
+#: inc/widgets.php:17
+msgid "Underline Random Posts"
+msgstr ""
+
+#: inc/widgets.php:45 inc/widgets.php:155
+msgid "Permalink to "
+msgstr ""
+
+#: inc/widgets.php:56
+msgid "Random Posts"
+msgstr ""
+
+#: inc/widgets.php:93
+msgid "A list of the current post's related posts"
+msgstr ""
+
+#: inc/widgets.php:97
+msgid "Underline Related Posts"
+msgstr ""
+
+#: inc/widgets.php:166
+msgid "Related Posts"
+msgstr ""
+
+#: searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:7
+msgid "You haven't set any widget on this sidebar yet."
+msgstr ""
+
+#: sidebar.php:8
+msgid "Set it up"
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Underline"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://wpmisc.com/themes/underline"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An elegant, lightweight and fully responsive WordPress theme. Having clean, "
+"SEO-optimized code with built-in features that works out of the box, it "
+"optimizes the number of plugins that you've ever used for common features (e."
+"g. breadcrumbs, number paging navigation or contact form) that ends up being "
+"a simple, lightweight and ready-to-use theme. In case you prefer to using "
+"plugins having those features, Underline is compatible with popular plugins "
+"such as <a href=\"http://wordpress.org/plugins/breadcrumb-navxt/"
+"\">Breadcrumb NavXT</a>, <a href=\"http://wordpress.org/plugins/wp-pagenavi/"
+"\">WP-PageNavi</a> and <a href=\"http://wordpress.org/plugins/contact-form-7/"
+"\">Contact Form 7</a> as well. Highly recommends using with <a href=\"http://"
+"wordpress.org/plugins/wordpress-seo/\">WordPress SEO by Yoast</a>."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WPMisc"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wpmisc.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Contact Page Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Fullwidth Page Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Landing Page Template"
+msgstr ""

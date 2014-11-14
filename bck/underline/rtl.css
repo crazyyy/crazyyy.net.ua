@@ -1,0 +1,251 @@
+/* ==========================================================================
+   BASE
+   ========================================================================== */
+body {
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+pre {
+    direction: ltr;
+}
+
+table {
+    text-align: right;
+}
+
+ul,
+ol {
+    padding-left: 0;
+    padding-right: 40px;
+}
+/* ==========================================================================
+   LAYOUT
+   ========================================================================== */
+
+/* ====================================
+   #content - LAYOUT
+   ==================================== */
+
+#content {
+    float: right;
+}
+
+/* ====================================
+   #secondary - LAYOUT
+   ==================================== */
+#secondary {
+    float: left;
+}
+
+/* ==========================================================================
+   MODULE/COMPONENT
+   ========================================================================== */
+
+.messages {
+    padding-left: 0;
+    padding-right: 15px;
+}
+
+/* ====================================
+   Header - MODULE/COMPONENT
+   ==================================== */
+
+.title-area {
+    float: right;
+}
+
+/* ====================================
+   Main navigation - MODULE/COMPONENT
+   ==================================== */
+.main-navigation {
+    float: left;
+}
+
+.mobile-navigation {
+    display: none;
+    text-align: right;
+}
+
+.nav-menu {
+    padding-right: 0;
+} 
+
+.sub-menu .menu-item {
+    text-align: right;
+}
+
+.nav-menu > .menu-item > .extend {
+    margin-left: 0;
+    margin-right: 5px;
+}
+
+.sub-menu .menu-item > .extend {
+    right: auto;
+    left: 0;
+}
+
+.main-navigation .menu-item .sub-menu {
+    left: auto;
+    right: 106%;
+}
+
+.main-navigation .menu-item .sub-menu:before,
+.main-navigation .menu-item .sub-menu:after {
+    right: auto;
+    left: 100%;
+    border-left: 8px solid #FFF;
+    border-right: 8px solid transparent;
+}
+
+.main-navigation .menu-item .sub-menu:after {    
+    border-left: 9px solid rgba(100, 100, 100, 0.1);
+    border-right: 9px solid transparent;
+}
+
+.main-navigation .nav-menu > .menu-item > .sub-menu {
+    left: auto;
+    right: 0;
+}
+
+.main-navigation .nav-menu > .menu-item > .sub-menu:before,
+.main-navigation .nav-menu > .menu-item > .sub-menu:after {
+    right: 17px;
+    left: auto;
+    border-left: 8px solid transparent;
+}
+
+.main-navigation .nav-menu > .menu-item > .sub-menu:after {
+    left: auto;
+    right: 16px;
+    border-left: 9px solid transparent;
+}
+
+@media only screen and (max-width: 600px) {
+    .mobile-navigation .sub-menu {
+        padding-left: 0;
+        padding-right: 30px;
+    }
+}
+/* ====================================
+   Navigation - MODULE/COMPONENT
+   ==================================== */
+.navigation .nav-previous {
+    float: right;
+    text-align: right;
+}
+
+.navigation .nav-next {
+    float: left;
+    text-align: left;
+}
+
+/* ====================================
+   Post - MODULE/COMPONENT
+   ==================================== */
+
+.entry-content img.alignnone {
+    margin: 5px 0 12px 20px;
+}
+
+.wp-caption.alignnone {
+    margin: 5px 0 20px 20px;
+}
+
+.author-avatar .avatar {
+    float: right;
+}
+
+.author-description {
+    margin-left: 0;
+    margin-right: 100px;
+}
+
+.author-links {
+    padding-right: 0;
+}
+.author-links > li {
+    margin: 0 0 0 1em;
+}
+
+/* ====================================
+   Comments - MODULE/COMPONENT
+   ==================================== */
+
+.comment-list .children {
+    padding-left: 0;
+    padding-right: 2em;
+    border-left: 0;
+    border-right: 1px dashed #ccc;
+}
+
+.comment-author .avatar {
+    float: right;
+    margin: auto auto 10px 10px;
+}
+
+/* ====================================
+   Widget - MODULE/COMPONENT
+   ==================================== */
+.widget ul,
+.widget .list {
+    padding-right: 0;
+}
+
+.widget ul.children {
+    padding-left: 0;
+    padding-right: 24px;
+}
+
+#prev > a {
+    float: right;
+    margin-left: 0;
+    margin-right: 1em;
+}
+
+#next > a{
+    float: left;
+    margin-right: 0;
+    margin-left: 1em;
+}
+
+/* ====================================
+   Footer - MODULE/COMPONENT
+   ==================================== */
+.site-footer .widget:nth-child(3n + 1) {
+    margin-right: 0;
+}
+
+/* ====================================
+   Grid - MODULE/COMPONENT
+   Extract from Bootstrap and extend a little
+   ==================================== */
+.one_half,
+.one_third,
+.two_third,
+.one_fourth,
+.three_fourth,
+.one_fifth,
+.two_fifth,
+.three_fifth,
+.four_fifth,
+.one_sixth,
+.five_sixth {
+    float: right;
+    margin-left: 0;
+    margin-right: 2.564102564102564%;
+}
+
+.one_half.first,
+.one_third.first,
+.two_third.first,
+.one_fourth.first,
+.three_fourth.first,
+.one_fifth.first,
+.two_fifth.first,
+.three_fifth.first,
+.four_fifth.first,
+.one_sixth.first,
+.five_sixth.first {
+    margin-right: 0;
+}
